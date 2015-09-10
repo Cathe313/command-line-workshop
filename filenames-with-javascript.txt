@@ -1,0 +1,7 @@
+../workspace/.git/index
+../workspace/README.md
+../workspace/src/_layouts/default.html
+../workspace/src/_config.yml
+../workspace/src/_data/fulltime_curriculum.json
+../workspace/src/_data/fulltime_learn.json
+../workspace/src/on-demand/index.html
