@@ -1,0 +1,287 @@
+    1  git checkout master
+    2  cd
+    3  ls /home/ubuntu/workspace
+    4  ls workspace
+    5  ls ubuntu
+    6  ls /ubuntu
+    7  ls
+    8  pwd
+    9  cd workspace/src
+   10  tree
+   11  cd ..
+   12  ls
+   13  cd parse
+   14  ls
+   15  cd ..
+   16  cd rc
+   17  cd src
+   18  clear
+   19  cd ..
+   20  ls
+   21  ls -al
+   22  cd src
+   23  ls -al
+   24  cd .
+   25  ls .
+   26  cd ..
+   27  clear
+   28  cd ..
+   29  ls
+   30  cd 
+   31  cd ./workspace/src
+   32  cd ..
+   33  ls
+   34  ls -l
+   35  cat README.md
+   36  cat gruntfile.js
+   37  cat Gruntfile.js
+   38  c
+   39  less package.json
+   40  cd src
+   41  ls
+   42  cd ..
+   43  ls
+   44  ls -l
+   45  less package.json
+   46  pwd
+   47  ls
+   48  git branch footer-mod
+   49  git checkout footer-mod
+   50  git status
+   51  git add .
+   52  git commit -m "Changed course location in footer"
+   53  git status
+   54  git push
+   55  git push origin footer-mod
+   56  git status
+   57  clear
+   58  git checkout master
+   59  git branch visual-change
+   60  git checkout visual-change
+   61  git status
+   62  git add .
+   63  git commit
+   64  git status
+   65  git push
+   66  git push origin visual-change
+   67  git checkout master
+   68  git branch photo-change
+   69  git checkout photo-change
+   70  clear
+   71  git status
+   72  git add .
+   73  git commit -m "Changed index page picture to reflect change of course venue"
+   74  git status
+   75  git push origin photo-change
+   76  git status
+   77  git checkout footer-mod
+   78  git status
+   79  git pull
+   80  clear
+   81  git status
+   82  git add .
+   83  git commit -m "Remove mentioned of Griffin Camp from About, FAQ and Full-time FAQ; replaced with information on La Commune"
+   84  git status
+   85  git push
+   86  git push origin footer-mod
+   87  git branch other-changes
+   88  git checkout other-changes
+   89  clear
+   90  git status
+   91  git checkout master
+   92  git branch random-changes
+   93  git checkout random-changes
+   94  git checkout photo-change
+   95  gi status
+   96  git status
+   97  git checkout master
+   98  git checkout photo-change
+   99  git commit -m "branch to be deleted"
+  100  git add .
+  101  git commit -m "branch to be deleted"
+  102  git checkout photo-change
+  103  clear
+  104  git status
+  105  git add .
+  106  git commit -m "Uploaded picture to repo and updated scss file intro-section accordingly"
+  107  git status
+  108  git push origin photo-change
+  109  git checkout master
+  110  git branch -d other-changes
+  111  git branch -D other-changes
+  112  git branch -D random-changes
+  113  git branch changes
+  114  git checkout changes
+  115  git status
+  116  git add .
+  117  git commit -m "Added new font-family and font-size to the word Newsletter in the footer"
+  118  git status
+  119  clear
+  120  git status
+  121  git add .
+  122  git commit -m "Put font of 'Course is full' notice in darkred"
+  123  git status
+  124  git statu
+  125  gut status
+  126  git status
+  127  git add .
+  128  git commit -m "Made button round on full-time bootcamp page"
+  129  git add .
+  130  git commit -m "Changed headline font-family to cursive"
+  131  git status
+  132  clear
+  133  git status
+  134  git push origin changes
+  135  git checkout photo-change
+  136  git status
+  137  git add .
+  138  git commit -m "Changed relative path of images in intro-section css file"
+  139  git status
+  140  git push origin photo-change
+  141  clear
+  142  git config --global credential.helper 'cache --timeout 86400'
+  143  cat ~ /.ssh/id_rsa.pub
+  144  cat ~/.ssh/id_rsa.pub
+  145  git remote -v
+  146  git remote set-url origin git@github.com:Cathe313/decodemtl-1.git
+  147  git remote -v
+  148  git status
+  149  git add .
+  150  git commit -m "small change"
+  151  git push
+  152  git push origin photo-change
+  153  git checkout master
+  154  git branch master-alt
+  155  git merge footer-mod
+  156  git reset
+  157  git tree
+  158  git show-branch
+  159  git reset --merge
+  160  git show-branch
+  161  git checkout master-alt
+  162  git log
+  163  git branch alt
+  164  git branch -a
+  165  git rm master-alt
+  166  delete branch master-alt
+  167  git delete branch master-alt
+  168  git rm branch master-alt
+  169  git branch -D master-alt
+  170  git checkout master
+  171  git branch -D master-alt
+  172  git branch -D alt
+  173  git branch -a
+  174  git branch master-alt
+  175  git checkout master-alt
+  176  git merge footer-mod
+  177  git log
+  178  clear
+  179  git branch -a
+  180  git merge photo-change
+  181  git status
+  182  git add .
+  183  git commit -m "README file"
+  184  git checkout master
+  185  git status
+  186  git checkout master-alt
+  187  git merge photo-change
+  188  git status
+  189  git push
+  190  git push origin master-alt
+  191  git remote add origin git@github.com:Cathe313/git-and-command-line-exercise.git
+  192  git push -u origin master-alt
+  193  git remote add origin git@github.com:Cathe313/git-and-command-line-exercise.git
+  194  git log 
+  195  clear
+  196  git checkout master
+  197  git branch master-alt2
+  198  git checkout master-alt2
+  199  git rebase footer-mod
+  200  git log
+  201  clear
+  202  git rebase photo-change
+  203  git log
+  204  git undo
+  205  git reset
+  206  git log
+  207  git checkout master
+  208  git branch -D master-alt2
+  209  git branch master-alt2
+  210  git rebase footer-mod
+  211  git log
+  212  git checkout a13aa
+  213  git branch -f master-alt2 a13aa06
+  214  git rebase photo-change
+  215  git log
+  216  git checkout master
+  217  git branch -D master-alt2
+  218  git branch master-alt2
+  219  git branch -a
+  220  git checkout master-alt2
+  221  git rebase footer-mod
+  222  git log
+  223  clear
+  224  git status
+  225  git reflog
+  226  git checkout master
+  227  git branch -D master-alt2
+  228  git branch master-alt2
+  229  git checkout footer-mod
+  230  git rebase master-alt2
+  231  git checkout photo-change
+  232  git rebase master-alt2
+  233  git checkout master-alt2
+  234  git log
+  235  git log photo-change
+  236  git checkout photo-change
+  237  git rebase master-alt2
+  238  git checkout master-alt2
+  239  git log
+  240  git branch -a
+  241  git checkout visual-change
+  242  git log
+  243  git branch -D visual-change
+  244  git checkout master
+  245  git branch -D visual-change
+  246  git branch -a
+  247  git checkout changes
+  248  git log changes
+  249  git rebase master-alt2
+  250  git status
+  251  git checkout master-alt2
+  252  git log
+  253  git branch -f HEAD master-alt2
+  254  git rebase footer-mod
+  255  git checkout changes
+  256  git rebase master-alt2
+  257  git checkout master-alt2
+  258  git rebase changes
+  259  git log
+  260  checkout changes
+  261  git checkout changes
+  262  git log
+  263  git merge master-alt2
+  264  git push origin master-alt2
+  265  git checkout master-alt2
+  266  git remote pull origin git@github.com:Cathe313/git-and-command-line-exercise.git
+  267  git remote push origin git@github.com:Cathe313/git-and-command-line-exercise.git
+  268  git push -v remote origin git@github.com:Cathe313/git-and-command-line-exercise.git
+  269  git push -v master-alt2 origin git@github.com:Cathe313/git-and-command-line-exercise.git
+  270  git push -v git@github.com:Cathe313/git-and-command-line-exercise.git
+  271  pwd
+  272  cd .. ..
+  273  ls
+  274  git clone git@github.com:Cathe313/command-line-workshop.git
+  275  ls
+  276  cd workspace
+  277  git checkout master
+  278  git branch -a
+  279  cd ..
+  280  cd command-line-workshop
+  281  ls
+  282  cd ..
+  283  ls
+  284  cd command-line-workshop
+  285  git branch cmd-history
+  286  git checkout cmd-history
+  287  history > history.txt
